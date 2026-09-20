@@ -1,0 +1,9 @@
+Atractor dominante del AG segun lambda (100 semillas, N=20, G=100, pm=0.05)
+
+lambda=1.5  -> 1111111111 {todos los proyectos} en 100/100, Hamming 6 al optimo
+               exito 7/100, primer acierto mediana gen 0 (viene de la inicializacion)
+lambda=1.9  -> 1010010101 {P1,P3,P6,P8,P10} en 62/100, Hamming 1
+               1010010001 {P1,P3,P6,P10}    en 38/100, Hamming 0
+               exito 100/100, primer acierto mediana gen 6
+lambda=2.1  -> optimo en 65/100; resto en un optimo local a Hamming 3
+lambda=5.0  -> optimo en 31/100; resto disperso a Hamming 3, 5 y 6
