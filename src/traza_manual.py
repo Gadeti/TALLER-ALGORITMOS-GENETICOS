@@ -41,7 +41,7 @@ def main():
     rng = random.Random(SEMILLA)
     poblacion = generar_poblacion(20, rng)
 
-    print("POBLACION INICIAL (semilla 42, N=20)")
+    print(f"POBLACION INICIAL (semilla {SEMILLA}, N=20)")
     print(f"{'#':>3}  {'cromosoma':<12}{'C':>5}{'B':>5}{'aptitud':>10}  {'validez':<11} proyectos")
     for i, ind in enumerate(poblacion):
         c, b = calcular_costo(ind), calcular_beneficio(ind)
